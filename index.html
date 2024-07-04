@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array</title>
+</head>
+<body>
+  <h1>Shopping List</h1>
+  <form action="add" method="get">
+    <label for="lists">Add Items</label><br> &nbsp &nbsp &nbsp &nbsp
+    <input name="lists" type="text" id="arr" value="Enter Groceries"/>
+    <input id="addNeed" type="submit" value="Need"/>
+    <input id="addhave" type="submit" value="Have"/>
+  </form>
+  <h2>Need:</h2>
+  <ul class="list">
+    <li><input type="checkbox" name="item"/>Black T-shirt<a href="#">X</a></li>
+    <li><input type="checkbox" name="item"/>Denim Pants<a href="#">X</a></li>
+    <li><input type="checkbox" name="item"/>Baseball Cap<a href="#">X</a></li>
+  </ul>
+  <h2>Have:</h2>
+  <ul class="list">
+    <li><input type="checkbox" name="item" checked/> T-shirt<a href="#">X</a></li>
+    <li><input type="checkbox" name="item" checked/> Pants<a href="#">X</a></li>
+    <li><input type="checkbox" name="item" checked/>Hoodie<a href="#">X</a></li>
+  </ul> 
+  <script src="arr.js">
+  </script>
+</body>
+</html>
